@@ -1,0 +1,259 @@
+.main {
+	background: #F3F3F3;
+}
+.main .listMainTitle{
+	width: 1200px;
+	margin: 0 auto;
+	padding: 16px 10px;
+	overflow: hidden;
+}
+.main .listMainTitle>a{
+	float: left;
+	color: #666;
+}
+.main .listMain{
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.main .mainRight{
+	padding: 10px 20px;
+	background: white;
+	float: left;
+	margin-right: 10px;
+}
+.main .mainRight>div{
+	width: 165px;
+}
+.main .mainRight>div>p{
+	width: 165px;
+	border-bottom:3px solid #e5e5e5 ;
+}
+.main .mainRight>div>p>span{
+	font-size: 14px;
+	color: #666;
+	font-weight: bold;
+	display: inline-block;
+	width: 56px;
+	height: 24px;
+	border-bottom: 3px solid #E5004B;
+	margin-bottom: -3px;
+}
+.main .mainRight>div>ul>li{
+	width: 165px;
+	text-align: center;
+	height: 25px;
+	padding: 8px 0;
+	text-align: 25px;
+	border-bottom: 1px solid #E5E5E5;
+}
+.main .mainRight>div>ul>li:nth-last-of-type(1){
+	border-bottom: none;
+}
+.main .mainRight>div>ul>li>a{
+	font-size: 12px;
+	color: #666;
+}
+.main .mainRight>div>ul>li>a:hover{
+	color: #E5004B;
+}
+.main .mainLeft{
+	width: 985px;
+	float: left;
+	overflow: hidden;
+}
+.main .mainLeft .mainLeft_logo{
+	background: white;
+	overflow: hidden;
+	padding: 6px;
+}
+.main .mainLeft .mainLeft_logo>div{
+	float: left;
+}
+.main .mainLeft .mainLeft_logo>div:nth-of-type(1){
+	width: 48px;
+	height: 30px;
+	color: #666666;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 30px;
+	margin-left: 10px;
+	margin-right: 18px;
+}
+.main .mainLeft .mainLeft_logo>div:nth-of-type(2){
+	width: 820px;
+	margin-left: 20px;
+}
+.main .mainLeft .mainLeft_logo>div:nth-of-type(2) a{
+	padding: 3px 32px 3px 0;
+	height: 24px;
+	color: #666;
+	display: inline-block;
+	cursor: pointer;
+}
+.main .mainLeft .mainLeft_logo>div:nth-of-type(2) a:hover{
+	color: #E5004b;
+}
+.main .mainLeft .mainLeft_pai{
+	overflow: hidden;
+	
+}
+.main .mainLeft .mainLeft_pai p{
+	background: white;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 986px;
+	overflow: hidden;
+	padding: 6px;
+}
+.main .mainLeft .mainLeft_pai p>span{
+	width: 42px;
+	height: 24px;
+	float: left;
+	font-size: 12px;
+	color: #666;
+	line-height: 24px;
+	margin: 0px 10px;
+	cursor: pointer;
+}
+.main .mainLeft .mainLeft_pai p>span:hover{
+	color: #E5004B;
+}
+.main .mainLeft .mainLeft_pai ul{
+	width: 1000px;
+}
+.main .mainLeft .mainLeft_pai ul li{
+	overflow: hidden;
+	background: white;
+	float: left;
+	width: 212px;
+	height: 371px;
+	margin-right: 10px;
+	margin-bottom:10px;
+	text-align: center;
+	padding: 10px;
+	border: 3px solid #fff;
+	transition: all .5s;
+}
+.main .mainLeft .mainLeft_pai ul li:hover{
+	border: 3px solid #E5004A;
+}
+.main .mainLeft .mainLeft_pai ul li div{
+	text-align: left;
+}
+.main .mainLeft .mainLeft_pai ul li img{
+	display: inline-block;
+	cursor: pointer;
+	margin-top: 20px;
+}
+.main .mainLeft .mainLeft_pai ul li #input4{
+	width: 114px;
+	height: 35px;
+	background:#F6F6F6;
+	border: 1px solid #EAEAEA;
+	margin: 0 3px;
+	color: #666;
+}
+.main .mainLeft .mainLeft_pai ul li div:nth-of-type(1){
+	cursor: pointer;
+	margin-top: 20px;
+	height: 42px;
+}
+.main .mainLeft .mainLeft_pai ul li div:nth-of-type(1) span{
+	margin-right: 4px;
+}
+.main .mainLeft .mainLeft_pai ul li div:nth-of-type(1) a:hover{
+	color: #E5004A;
+}
+.main .mainLeft .mainLeft_pai ul li div:nth-of-type(2){
+	width: 212px;
+	height: 34px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	line-height: 34px;
+}
+.main .mainLeft .mainLeft_pai ul li div:nth-of-type(2) s{
+	font-size: 12px;
+	color: #A3A3A3;
+	float: left;
+	line-height: 34px;
+	margin-left: 5px;
+}
+.main .mainLeft .mainLeft_pai ul li div:nth-of-type(2) span{
+	float: left;
+	font-size:16px;
+}
+
+.main .mainLeft .mainLeft_pai ul li div:nth-of-type(2) span:nth-of-type(2){
+	float: right;
+	font-size:14px;
+}
+.main .mainLeft .mainLeft_pai ul li div span{
+	color: #E5004b;
+	font-size: 14px;
+	font-weight: 600;
+}
+.main .mainLeft .mainLeft_pai ul li div a{	
+	color: #666;
+}
+.main .mainLeft .mainLeft_pai ul li div:nth-of-type(3){
+	clear: both;
+	float: left;
+	width: 41px;
+	height: 31px;
+	border: 1px solid #EAEAEA;
+	padding: 1px;
+}
+.main .mainLeft .mainLeft_pai ul li div:nth-of-type(3) input:nth-of-type(1){
+	text-align: center;
+	line-height: 30px;
+	cursor:text;
+}
+.main .mainLeft .mainLeft_pai ul li div:nth-of-type(3) input:nth-of-type(2){
+	width: 11px;
+	height: 14px;
+	color: #666666;
+}
+.main .mainLeft .mainLeft_pai ul li div:nth-of-type(3) input:nth-of-type(2):hover{
+	color: #E5004A;
+}
+.main .mainLeft .mainLeft_pai ul li div:nth-of-type(3) input:nth-of-type(3){
+	width: 11px;
+	height: 14px;
+	margin-top: 2px;
+	color: #666666;
+}
+.main .mainLeft .mainLeft_pai ul li div:nth-of-type(3) input:nth-of-type(3):hover{
+	color: #E5004A;
+}
+.main .mainLeft .mainLeft_pai ul li div:nth-of-type(4){
+	float: left;
+}
+.main .mainLeft .mainLeft_pai ul li input{
+	float: left;
+	border: none;
+	cursor:pointer;
+}
+.main .mainLeft .mainLeft_pai ul li div:nth-of-type(4){
+	width: 44px;
+	height: 33px;
+	border: 1px solid #EAEAEA;
+	text-align: center;
+	line-height: 33px;
+	background: #F6F6F6;
+	color: #666666;
+	font-size: 12px;
+	cursor: pointer;
+}
+.main .mainLeft .mainLeft_pai ul li div:nth-of-type(4):hover{
+	color: #E5004A;
+}
+.search .search_right .cartNum{
+	text-align: center;
+	line-height: 33px;
+	font-size: 12px;
+	color: #E40149;
+}
+#createJson{
+	overflow: hidden;
+}

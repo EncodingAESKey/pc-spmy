@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>欢迎登录</title>
+<link  rel="stylesheet" type="text/css" href="css/login.css"/>
+<link rel="icon" href="img/index.ico" type="image/x-icon"/>
+</head>
+<body>
+	<div class="head">
+		<div class="head_center">
+			<a href="index.html" target="_blank"><img src="img/logo.png"></a>
+			<h1>欢迎登录</h1>
+		</div>
+	</div>
+	<div class="main" >
+		<div class="main_center">
+			<div class="loginBox" style="">
+				<div class="loginBox_title">
+					<h4>会员登录</h4>
+					<a>立即注册</a>
+					<span>没有速普账号？</span>
+				</div>
+				<div class="loginBox_show">
+					<i></i>
+					<span></span>
+					
+				</div>
+				<div class="loginBox_user">
+					<div></div>
+					<input type="text" placeholder="邮箱、手机号、账户" id="loginUser"/>
+				</div>
+				<div class="loginBox_pass">
+					<div></div>
+					<input type="password" placeholder="密码" id="loginPass"/>
+				</div>
+				<div class="loginBox_move">
+					按住滑块拖动到最后边
+					<div class="move">></div>
+				</div>
+				<div class="loginBox_chk">
+					<span><input type="checkbox">记住用户名</span>
+					<span><input type="checkbox">自动登录</span>
+					<span>忘记密码了？</span>
+				</div>
+				<div class="loginBox_btn">
+					<input type="button" value="登&nbsp;&nbsp;&nbsp;&nbsp;录">
+				</div>
+				<div class="loginBox_par">
+					<span>合作账户登录 : </span>
+					<a href="#"><img src="img/zhifubao.png"></a>
+					<a href="#"><img src="img/weibo.png"></a>
+				</div>
+			</div>
+			<!--*******************注册页*****************-->
+			<div class="registerBox">
+				<div class="registerBox_title">
+					<h4>用户注册</h4>
+					<a>立即登录</a>
+					<span>已有账户？</span>
+				</div>
+				<div class="registerBox_show">
+					<i></i>
+					<i></i>
+					<i></i>
+					<i></i>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<div class="registerBox_user">
+					<div></div>
+					<input type="text" placeholder="邮箱、手机号" id="username"/>
+				</div>
+				<div class="registerBox_pass">
+					<div></div>
+					<input type="password" placeholder="6-16位字符，必须包含英文字母和数字" id="pass"/>
+				</div>
+				<div class="registerBox_move">
+					<div></div>
+					<input type="text" placeholder="输入验证码" id="picCode">
+					<img src="img/yzm.jpg">
+				</div>
+				<div class="registerBox_chk">
+					<div></div>
+					<input type="text" placeholder="输入手机验证码" id="phoneCode">
+					<input type="button" value="获取验证码">
+				</div>
+				<div class="registerBox_btn_agree">
+					<input type="checkbox"/>
+					我已阅读并同意
+					<a href="#"> 《速普商城用户协议》</a>
+				</div>
+				<div class="registerBox_btn">
+					<input type="button" value="注&nbsp;&nbsp;&nbsp;&nbsp;册">
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="footer_center">
+			<p>Copyright © 速普商城 2010-2016 All Right Reseved 鲁 ICP 证 09059644 号</p>
+			<span><img src="img/zhizhao.png"></span>
+			<span><img src="img/cnnic.png"></span>
+		</div>
+	</div>
+</body>
+</html>
+<script src="js/cookie.js"></script>
+<script src="js/startMove.js"></script>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/ajax.js"></script>
+<script src="js/login.js"></script>
