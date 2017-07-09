@@ -1,0 +1,429 @@
+*{
+	padding: 0;
+	margin:0;
+}
+html,body{
+	font-family: "Microsoft YaHei UI", "Microsoft YaHei UI Light", "微软雅黑", "宋体", Helvetica-Black-SemiBold, Tahoma, Arial, sans-serif;-webkit-user-select: none;
+	-moz-user-select: none;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+/*--------------------------------head-----------------------------------*/
+.head{
+	width: 100%;
+	background: #f2f2f2;
+	height: 103px;
+}
+.head .head_center{
+	width: 1200px;
+	margin: 0 auto;
+	height: 103px;
+}
+.head .head_center>a{
+	float: left;
+	margin-top: 24px;
+}
+.head .head_center>a>img{
+	width: 155px;
+	height: 56px;
+}
+.head .head_center>h1{
+	height: 55px;
+	border-left: 1px solid #dadada;
+	padding-left: 30px;
+	margin-left: 35px;
+	float: left;
+	line-height: 55px;
+	margin-top: 24px;
+	font-size: 28px;
+	color: #333;
+	font-weight: normal;
+}
+/*--------------------------------main-----------------------------------*/
+.main{
+	width: 100%;
+	height: 480px;
+	background: url(../img/login-bg.jpg) no-repeat center center;
+	overflow: hidden;
+}
+.main .main_center{
+	width: 1200px;
+	margin: 0 auto;
+	height: 480px;
+	position: relative;
+}
+.main .main_center .loginBox{
+	width: 296px;
+	height: 390px;
+	border: 1px solid #dbddda;
+	background: #fff;
+	float: right;
+	margin-top: 46px;
+	padding: 0px 22px;
+	position: absolute;
+	right: 40px;
+}
+.main .main_center .loginBox .loginBox_title{
+	padding-top: 25px;
+	height: 26px;
+	width: 296px;
+}
+.main .main_center .loginBox .loginBox_title h4{
+	float: left;
+	font-size: 18px;
+	color: #686565;
+	font-weight: 700;
+}
+.main .main_center .loginBox .loginBox_title span{
+	float: right;
+	color: #999;
+	font-size: 12px;
+}
+.main .main_center .loginBox .loginBox_title a{
+	float: right;
+	font-size: 13px;
+	color: #137ce9;
+	cursor: pointer;
+}
+.main .main_center .loginBox .loginBox_show{
+	width: 296px;
+	height: 22px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+.main .main_center .loginBox .loginBox_show>i{
+	width: 22px;
+	height: 20px;
+	background: url(../img/login_icon.png) 0px -240px no-repeat;
+	float: left;
+	display: none;
+}
+.main .main_center .loginBox .loginBox_show>span{
+	height: 20px;
+	width: 260px;
+	float: left;
+	font-size: 12px;
+	color: #E5004B;
+	line-height: 25px;
+}
+.main .main_center .loginBox .loginBox_user{
+	width:296px;
+	height: 42px;
+	position: relative;
+	margin-bottom: 10px;
+}
+.main .main_center .loginBox .loginBox_user>div{
+	width: 40px;
+	height: 38px;
+	background: url(../img/login_icon.png) 14px -113px #f9f9f9 no-repeat;
+	position: absolute;
+	left: 1px;
+	top: 1px;
+}
+.main .main_center .loginBox .loginBox_user>input{
+	width: 231px;
+	height: 38px;
+	padding: 0 20px 0 43px;
+	border: none;
+	background: #F9F9F9;
+	border:1px solid #F9F9F9;
+}
+.main .main_center .loginBox .loginBox_pass{
+	position: relative;
+	margin-bottom: 10px;
+}
+.main .main_center .loginBox .loginBox_pass>div{
+	width: 40px;
+	height: 38px;
+	background: url(../img/login_icon.png) 14px -169px #f9f9f9 no-repeat;
+	position: absolute;
+	left: 1px;
+	top: 1px;
+}
+.main .main_center .loginBox .loginBox_pass>input{
+	width: 231px;
+	height: 38px;
+	padding: 0 20px 0 43px;
+	border: none;
+	background: #F9F9F9;
+	border:1px solid #F9F9F9;
+}
+.main .main_center .loginBox .loginBox_move{
+	width: 290px;
+	height: 34px;
+	padding: 3px;
+	background:#f29dba;
+	margin: 10px 0px;
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+	line-height: 34px;
+	position: relative;
+}
+.main .main_center .loginBox .loginBox_move .move{
+	width: 52px;
+	height: 34px;
+	background: #fff;
+	position: absolute;
+	top: 3px;
+	left: 3px;
+	border-radius:5px;
+	color: #f29dba;
+	font-size: 24px;
+	cursor: pointer;
+}
+.main .main_center .loginBox .loginBox_chk{
+	font-size: 12px;
+	height: 20px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	color: #777;
+}
+.main .main_center .loginBox .loginBox_chk input{
+	margin-right: 5px;
+	width: 15px;
+	height: 15px;
+	float: left;
+}
+.main .main_center .loginBox .loginBox_chk>span:nth-of-type(1){
+	float: left;
+}
+.main .main_center .loginBox .loginBox_chk>span:nth-of-type(2){
+	margin-left: 25px;
+	float: left;
+}
+.main .main_center .loginBox .loginBox_chk>span:nth-of-type(3){
+	float: right;
+}
+.main .main_center .loginBox .loginBox_btn{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.main .main_center .loginBox .loginBox_btn>input{
+	width: 296px;
+	height: 44px;
+	border: none;
+	background: #E5004A;
+	color: #fff;
+	font-size: 20px;
+	cursor: pointer;
+}
+.main .main_center .loginBox .loginBox_par{
+	font-size: 12px;
+	color: #777;
+	margin-top: 20px;
+}
+.main .main_center .loginBox .loginBox_par>span{
+	float: left;
+	line-height: 27px;
+}
+.main .main_center .loginBox .loginBox_par>a{
+	margin-left: 10px;
+	display: inline-block;
+}
+/*--------------------------------注册页-------------------------------------*/
+.main .main_center .registerBox{
+	width: 296px;
+	height: 390px;
+	border: 1px solid #dbddda;
+	background: #fff;
+	float: right;
+	margin-top: 46px;
+	padding: 0px 22px;
+	position: absolute;
+	right: 390px;
+	opacity: 0;
+}
+.main .main_center .registerBox .registerBox_title{
+	padding-top: 25px;
+	height: 26px;
+	width: 296px;
+	line-height: 26px;
+}
+.main .main_center .registerBox .registerBox_title h4{
+	float: left;
+	font-size: 18px;
+	color: #686565;
+	font-weight: 700;
+}
+.main .main_center .registerBox .registerBox_title span{
+	float: right;
+	color: #999;
+	font-size: 12px;
+}
+.main .main_center .registerBox .registerBox_title a{
+	float: right;
+	font-size: 13px;
+	color: #137ce9;
+	cursor: pointer;
+}
+.main .main_center .registerBox .registerBox_show{
+	width: 296px;
+	height: 22px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	position: relative;
+}
+.main .main_center .registerBox .registerBox_show>i{
+	width: 22px;
+	height: 20px;
+	background: url(../img/login_icon.png) 0px -240px no-repeat;
+	float: left;
+	display: none;
+	position: absolute;
+}
+.main .main_center .registerBox .registerBox_show>span{
+	height: 20px;
+	width: 260px;
+	float: left;
+	font-size: 12px;
+	color: #E5004B;
+	line-height: 25px;
+	position: absolute;
+	left: 22px;
+}
+.main .main_center .registerBox .registerBox_user{
+	width:296px;
+	height: 42px;
+	position: relative;
+	margin-bottom: 10px;
+}
+.main .main_center .registerBox .registerBox_user>div{
+	width: 40px;
+	height: 38px;
+	background: url(../img/login_icon.png) 14px -113px #f9f9f9 no-repeat;
+	position: absolute;
+	left: 1px;
+	top: 1px;
+}
+.main .main_center .registerBox .registerBox_user>input:nth-of-type(1){
+	width: 231px;
+	height: 38px;
+	padding: 0 20px 0 43px;
+	border: none;
+	background: #F9F9F9;
+	border:1px solid #F9F9F9;
+}
+.main .main_center .registerBox .registerBox_pass{
+	position: relative;
+	margin-bottom: 10px;
+}
+.main .main_center .registerBox .registerBox_pass>div{
+	width: 40px;
+	height: 38px;
+	background: url(../img/login_icon.png) 14px -169px #f9f9f9 no-repeat;
+	position: absolute;
+	left: 1px;
+	top: 1px;
+}
+.main .main_center .registerBox .registerBox_pass>input:nth-of-type(1){
+	width: 231px;
+	height: 38px;
+	padding: 0 20px 0 43px;
+	border: none;
+	background: #F9F9F9;
+	border:1px solid #F9F9F9;
+}
+.main .main_center .registerBox .registerBox_move{
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.main .main_center .registerBox .registerBox_move>div{
+	width: 40px;
+	height: 38px;
+	background: url(../img/login_icon.png) 14px -399px #f9f9f9 no-repeat;
+	position: absolute;
+	left: 1px;
+	top: 1px;
+}
+.main .main_center .registerBox .registerBox_move>input:nth-of-type(1){
+	width: 112px;
+	height: 38px;
+	padding: 0 20px 0 43px;
+	border: none;
+	background: #F9F9F9;
+	float: left;
+	border:1px solid #F9F9F9;
+}
+.main .main_center .registerBox .registerBox_move>img{
+	margin-left: 15px;
+	cursor: pointer;
+}
+.main .main_center .registerBox .registerBox_chk{
+	position: relative;
+	margin-bottom: 10px;
+	width: 296px;
+	height: 40px;
+}
+.main .main_center .registerBox .registerBox_chk>div{
+	width: 40px;
+	height: 38px;
+	background: url(../img/login_icon.png) 14px -293px #f9f9f9 no-repeat;
+	position: absolute;
+	left: 1px;
+	top: 1px;
+}
+.main .main_center .registerBox .registerBox_chk>input:nth-of-type(1){
+	width: 112px;
+	height: 38px;
+	padding: 0 20px 0 43px;
+	border: none;
+	background: #F9F9F9;
+	float: left;
+	border:1px solid #F9F9F9;
+}
+.main .main_center .registerBox .registerBox_chk>input:nth-of-type(2){
+	width: 104px;
+	height: 40px;
+	border: none;
+	background: #E5004A;
+	float: left;
+	color: #fff;
+	margin-left: 15px;
+	cursor: pointer;
+}
+.main .main_center .registerBox .registerBox_btn>input{
+	width: 296px;
+	height: 44px;
+	border: none;
+	background: #E5004A;
+	color: #fff;
+	font-size: 20px;
+	cursor: pointer;
+}
+.main .main_center .registerBox .registerBox_btn_agree{
+	font-size: 12px;
+	margin-bottom: 10px;
+	color: #777;
+}
+.main .main_center .registerBox .registerBox_btn_agree input{
+	float: left;
+	width: 15px;
+	height: 15px;
+	margin-right: 10px;
+}
+/*--------------------------------footer-----------------------------------*/
+.footer{
+	width: 100%;
+	background: #f3f3f3;
+	height: 119px;
+	border-top: 1px solid #dfdbda;
+	margin-bottom: 10px;
+}
+.footer .footer_center{
+	width: 1200px;
+	margin: 0 auto;
+	height: 119px;
+	text-align: center;
+}
+.footer .footer_center p{
+	padding-top: 15px;
+	padding-bottom: 26px;
+	color: #9c9c9c;
+	font-size: 12px;
+}
